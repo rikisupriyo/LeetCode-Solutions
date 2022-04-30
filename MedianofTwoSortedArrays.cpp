@@ -35,13 +35,3 @@ class Solution{
             return num3[n/2];
         }
 };
-
-int main(){
-    Solution s;
-    vector<int> num1, num2;
-    num1.push_back(1);
-    num1.push_back(2);
-    num2.push_back(3);
-    num2.push_back(4);
-    cout<<s.findMedianSortedArrays(num1, num2);
-}

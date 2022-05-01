@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution{
     public:
         int removeDuplicates(vector<int> &nums){
@@ -19,12 +16,3 @@ class Solution{
             return st.empty()?-1:st.size();
         }
 };
-
-int main(){
-    vector<int> nums = {1,1,2};
-    Solution s;
-    cout<<s.removeDuplicates(nums)<<endl;
-    for(auto i=nums.begin(); i!=nums.end(); i++)
-        cout<<*i<<" ";
-    return 0;
-}
